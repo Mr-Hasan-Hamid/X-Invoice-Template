@@ -26,3 +26,4 @@ dist-ssr
 # Project specific
 invoice-app/dist
 invoice-app/node_modules
+.vercel
