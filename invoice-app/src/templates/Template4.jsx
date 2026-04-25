@@ -19,7 +19,7 @@ const Template4 = () => {
     },
     client: {
       name: "Aura Creative Agency",
-      contact: "Anjali Sharma, Creative Director",
+      phone: "+91 99887 76655",
       email: "billing@auracreative.in",
       address: "Suite 402, Green Valley\nIndiranagar, Bangalore 560038"
     },
@@ -227,8 +227,9 @@ const Template4 = () => {
                 </div>
                 <div className="space-y-1 relative z-10">
                    <EditableText className="text-2xl font-black text-slate-900 tracking-tighter" value={invoiceData.client.name} onChange={(v) => updateNestedField('client', 'name', v)} />
-                   <div className="text-[11px] font-black text-orange-500 uppercase tracking-widest mb-3 flex items-center gap-2 italic">
-                      <EditableText value={invoiceData.client.contact} onChange={(v) => updateNestedField('client', 'contact', v)} />
+                   <div className="text-[11px] font-bold text-slate-500 mb-2 flex items-center gap-2">
+                      <Phone size={10} className="text-orange-400"/>
+                      <EditableText value={invoiceData.client.phone} onChange={(v) => updateNestedField('client', 'phone', v)} />
                    </div>
                    <EditableText className="text-[11px] font-medium text-slate-500 leading-relaxed" multiline value={invoiceData.client.address} onChange={(v) => updateNestedField('client', 'address', v)} />
                 </div>

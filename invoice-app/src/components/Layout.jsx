@@ -54,7 +54,7 @@ const Layout = ({ children }) => {
                <div className="w-8 h-[1px] bg-slate-200"></div>
             </div>
             <p className="text-lg font-black text-slate-900 tracking-tight">
-              Designed & Developed by <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-fuchsia-600 underline decoration-indigo-200 decoration-4 underline-offset-4 cursor-pointer hover:opacity-80 transition-opacity">Your Name</span>
+              Designed & Developed by <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-fuchsia-600 underline decoration-indigo-200 decoration-4 underline-offset-4 cursor-pointer hover:opacity-80 transition-opacity">Mr Hasan Hamid</span>
             </p>
             <p className="text-xs font-bold text-slate-400">© 2024 X-Invoice Template Studio • Premium Design Assets</p>
           </div>
